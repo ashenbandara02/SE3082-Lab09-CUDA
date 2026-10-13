@@ -1,0 +1,11 @@
+__pycache__/
+.validation/
+*.exe
+hello
+ex2_add
+ex3_blocks
+ex4_threads
+ex4_limit
+ex4_limit.cu
+ex5_vecmul
+ex6_matrix
