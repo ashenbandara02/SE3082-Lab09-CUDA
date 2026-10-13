@@ -24,4 +24,4 @@ Compile cells use `-arch=sm_75` as required by the sheet. If assigned another GP
 
 ## Execution status
 
-The notebook has not been executed on a Colab GPU. Reference outputs are clearly labelled as expected values; no GPU execution results have been fabricated. Local validation checks notebook structure, source-cell consistency and CPU execution of the extracted kernel logic, including out-of-range threads. CUDA compilation and GPU execution remain to be performed in Colab before submission.
+Executed in Colab on a Tesla T4 (compute capability 7.5), CUDA compiler 13.0.88. Actual outputs are saved in the notebook. Hello prints four greetings; Exercise 2 returns 9; Exercises 3 and 4 report zero mismatches out of 512; Exercise 5 reports zero out of 10,000,000; Exercise 6 reports zero out of 100,000,000. The 2,048-thread experiment fails as intended with `Kernel launch failed: invalid argument`. Local notebook consistency and kernel boundary checks passed.
